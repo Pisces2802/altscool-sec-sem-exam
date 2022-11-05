@@ -13,6 +13,10 @@ export default function User() {
     `https://api.github.com/users/pisces2802/repos`
   );
 
+  const USERS_PER_PAGE = 4;
+
+  const skip = pageCount * USERS_PER_PAGE - USERS_PER_PAGE;
+
   if (loading) {
     return <>Loading...</>;
   }

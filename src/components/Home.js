@@ -11,7 +11,7 @@ export default function Home() {
       <h2
         style={{
           color: "#474E68",
-          margin: "5px auto",
+          margin: "5px auto 10px",
           width: "70%",
           border: "1px solid #6C4AB6",
           backgroundColor: "rgb(108, 74, 182, 0.7)",
