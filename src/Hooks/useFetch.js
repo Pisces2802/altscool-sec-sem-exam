@@ -62,7 +62,7 @@ export default function useFetch(url, options) {
     return () => {
       cancelRequest.current = true;
     };
-  }, [url]);
+  }, [url, options] );
 
   return state;
 }
