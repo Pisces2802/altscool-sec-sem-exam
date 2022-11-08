@@ -27,7 +27,7 @@ export default function Layout() {
             transition: "color 0.2s ease-in 0.2s",
           })}
         >
-          About
+          ErrorBoundary
         </NavLink>{" "}
         <NavLink
           to="repos"
