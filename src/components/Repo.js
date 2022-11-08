@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 
 export default function NewUser() {
   let { repoId } = useParams();
+  console.log(repoId);
 
   return (
     <section>
