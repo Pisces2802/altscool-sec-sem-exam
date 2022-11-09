@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/userpagehr.css";
 
-export default function User() {
+export default function Repos() {
   const [pageCount, setPageCount] = useState(1);
 
   const { loading, error, data } = useFetch(
