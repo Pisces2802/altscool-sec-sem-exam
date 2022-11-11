@@ -3,6 +3,7 @@
     /* border: 1px solid black; */
     background-color: #6C4AB6;
     display: flex;
+    position: fixed;
 }
 
 .layout_heading {
@@ -25,6 +26,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        
     }
 
     .layout_heading {
@@ -44,6 +46,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        
     }
 
     .layout_heading {

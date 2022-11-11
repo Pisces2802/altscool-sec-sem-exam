@@ -35,7 +35,6 @@ export default function Layout() {
             color: isActive ? "tomato" : "white",
             textDecoration: "none",
             transition: "color 0.2s ease-in 0.2s",
-            marginBottom: "10px",
           })}
         >
           Repos
