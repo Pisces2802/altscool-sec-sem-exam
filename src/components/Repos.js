@@ -18,11 +18,11 @@ export default function Repos() {
   const skip = pageCount * USERS_PER_PAGE - USERS_PER_PAGE;
 
   if (loading) {
-    return <>Loading...</>;
+    return <p style={{ marginTop: "20px" }}>Loading...</p>;
   }
 
   if (!loading && error) {
-    return <>Error</>;
+    return <p style={{ marginTop: "20px" }}>Error</p>;
   }
 
   return (
@@ -46,7 +46,7 @@ export default function Repos() {
               width: "70%",
               border: "1px solid #6C4AB6",
               backgroundColor: "rgb(108, 74, 182, 0.7)",
-              padding: "5px",
+              padding: "10px",
 
               borderRadius: "20px",
             }}
