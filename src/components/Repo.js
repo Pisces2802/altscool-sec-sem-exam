@@ -14,19 +14,22 @@ export default function Repo() {
       </Helmet>
       <h2 style={{ color: "#474E68" }}>Repository</h2>
       <br />
-      <p
+      <a
         style={{
           margin: "20px auto",
-          width: "70%",
+          // width: "70%",
           border: "1px solid #6C4AB6",
           backgroundColor: "#8D72E1",
           padding: "5px",
 
           borderRadius: "20px",
         }}
+        href={`https://github.com/Pisces2802/${repoId}`}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         {repoId}
-      </p>
+      </a>
     </section>
   );
 }
