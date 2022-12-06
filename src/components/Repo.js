@@ -17,7 +17,7 @@ export default function Repo() {
       <a
         style={{
           margin: "20px auto",
-          // width: "70%",
+          // git stat
           border: "1px solid #6C4AB6",
           backgroundColor: "#8D72E1",
           padding: "5px",
