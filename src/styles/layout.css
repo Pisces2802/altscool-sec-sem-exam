@@ -4,6 +4,8 @@
     background-color: #6C4AB6;
     display: flex;
     height: 70px;
+    position: fixed;  
+    
 }
 
 .heading {
