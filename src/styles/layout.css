@@ -16,15 +16,15 @@
 .layout_heading {
     color: white;
     width: 80%;
-    margin-left: 20px;
+    margin-left: 40px;
     padding-top: 10px;
    }
 
 .hamburger-box {
     display: none;
-    margin-right: 10px;
     cursor: pointer;
     padding-top: 10px;
+    width: 20%;
 }
 
 .navigation {
@@ -63,6 +63,8 @@
 @media (max-width: 768px) {
   .hamburger-box {
     display:block;
+    margin-left: 100px;
+    width: 20%;
   }
   .navigation {
     display: none;
