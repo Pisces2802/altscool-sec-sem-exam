@@ -13,7 +13,6 @@ export default function Repos() {
     `https://api.github.com/users/pisces2802/repos`
   );
 
-
   const USERS_PER_PAGE = 4;
 
   const skip = pageCount * USERS_PER_PAGE - USERS_PER_PAGE;
@@ -35,7 +34,7 @@ export default function Repos() {
           content="This is a page about the user repositories"
         />
       </Helmet>
-      <h2 style={{ color: "#474E68", margin: "20px 0 10px" }}>
+      <h2 style={{ color: "#474E68", margin: "70px 0 10px" }}>
         List of Github Repositories
       </h2>
       {data?.slice(skip, skip + USERS_PER_PAGE).map((each, index) => {
