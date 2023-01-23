@@ -14,6 +14,7 @@ export default function Layout() {
 
   function home() {
     navigate("/");
+    setIsOpen(false);
   }
 
   function hide() {

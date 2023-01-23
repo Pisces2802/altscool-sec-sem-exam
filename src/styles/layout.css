@@ -11,6 +11,7 @@
 .heading {
   margin-top: 10px;
   cursor: pointer;
+  font-size: larger;
 }
 
 .layout_heading {
